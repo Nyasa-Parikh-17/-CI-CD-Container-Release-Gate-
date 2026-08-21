@@ -1,0 +1,11 @@
+{
+  "name": "tds-release-gate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test/policy.test.js",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}
